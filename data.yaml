@@ -1,0 +1,16 @@
+names:
+- Gun-
+- Knife-
+- Pliers-
+- Scissors-
+- Wrench-
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: sixray_yolov8
+  url: https://universe.roboflow.com/mpu-project/sixray_yolov8/dataset/964
+  version: 964
+  workspace: mpu-project
+test: ../test/images
+train: sixray_yolov8-964/train/images
+val: sixray_yolov8-964/valid/images
